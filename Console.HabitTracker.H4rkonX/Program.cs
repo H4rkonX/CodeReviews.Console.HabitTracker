@@ -336,7 +336,7 @@ class HabitTracker
                     while (true)
                     {
                         Console.Clear();
-                        var (records, ids) = ViewAllRecords();
+                        var (_, ids) = ViewAllRecords();
                         Console.WriteLine();
                         Console.WriteLine("Which record do you want to update?");
 
@@ -389,7 +389,7 @@ class HabitTracker
                     while (true)
                     {
                         Console.Clear();
-                        var (records, ids) = ViewAllRecords();
+                        var (_, ids) = ViewAllRecords();
                         Console.WriteLine();
                         Console.WriteLine("Select your desired record: ");
 
